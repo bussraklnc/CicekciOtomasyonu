@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="manasayfa" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" style="-fx-background-color: #F5FFFA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MudurAnasayfaController">
+   <children>
+      <Button fx:id="mlistele" alignment="BASELINE_RIGHT" layoutX="200.0" layoutY="112.0" mnemonicParsing="false" onAction="#mlistele_Click" prefHeight="45.0" prefWidth="200.0" style="-fx-background-color: #967BB6;" text="MÜDÜR LİSTELEME">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="pdznle" alignment="BASELINE_RIGHT" layoutY="156.0" mnemonicParsing="false" onAction="#pdznle_Click" prefHeight="45.0" prefWidth="200.0" style="-fx-background-color: #D891EF;" text="PERSONEL DÜZENLEME">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="mdznle" alignment="BASELINE_RIGHT" layoutY="112.0" mnemonicParsing="false" onAction="#mdznle_Click" prefHeight="45.0" prefWidth="200.0" style="-fx-background-color: #967BB6;" text="MÜDÜR DÜZENLEME" AnchorPane.leftAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="plistele" alignment="BASELINE_RIGHT" layoutX="200.0" layoutY="156.0" mnemonicParsing="false" onAction="#plistele_Click" prefHeight="45.0" prefWidth="200.0" style="-fx-background-color: #D891EF;" text="PERSONEL LİSTELEME">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="123.0" layoutY="45.0" prefHeight="35.0" prefWidth="155.0" text="İŞLEMLER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="kapatt2" alignment="BASELINE_RIGHT" layoutX="317.0" mnemonicParsing="false" onAction="#kapatt2_Click" prefHeight="35.0" prefWidth="83.0" />
+      <ImageView fitHeight="35.0" fitWidth="73.0" layoutX="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../view/icons8-exit-48.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="back2" alignment="BASELINE_RIGHT" layoutX="224.0" mnemonicParsing="false" onAction="#back2_Click" prefHeight="35.0" prefWidth="73.0" />
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../view/icons8-back.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../view/icons8-manager-48.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../view/icons8-manager-48.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="55.0" layoutX="201.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../view/icons8-user-24.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="55.0" layoutX="200.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../view/icons8-user-24.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="kuladanasyfa" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="750.0" style="-fx-background-color: #82CAFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.KullaniciAnasayfaController">
+   <children>
+      <TabPane layoutY="54.0" prefHeight="495.0" prefWidth="750.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="SAKSILI BİTKİLERİ">
+               <content>
+                  <AnchorPane fx:id="ilkgrs" prefHeight="500.0" prefWidth="454.0" style="-fx-background-color: #dcb8d0;">
+                     <children>
+                        <Button fx:id="kltya_btn" layoutX="31.0" layoutY="263.0" mnemonicParsing="false" onAction="#kltya_btn_Click" prefHeight="186.0" prefWidth="150.0" />
+                        <Button fx:id="sknt_btn" layoutX="273.0" layoutY="27.0" mnemonicParsing="false" onAction="#sknt_btn_Click" prefHeight="186.0" prefWidth="150.0" textAlignment="CENTER" />
+                        <Label alignment="CENTER" layoutX="291.0" layoutY="188.0" text="SUKULENT" textFill="#900c3f">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="36.0" layoutY="423.0" text="KALATYA" textFill="#900c3f">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="302.0" layoutY="413.0" text="TORF&amp;GÜBRE" textFill="#900c3f">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="cicek_btn" alignment="CENTER" contentDisplay="CENTER" layoutX="273.0" layoutY="263.0" mnemonicParsing="false" onAction="#cicek_btn_Click" prefHeight="186.0" prefWidth="150.0" />
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="273.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/HaworthiaFasciata2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="33.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/kalatya2bitki.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="120.0" layoutX="295.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/yilbasicicegi.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="293.0" layoutY="413.0" text="YILBAŞI ÇİÇEĞİ">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="baris_btn" layoutX="50.0" layoutY="27.0" mnemonicParsing="false" onAction="#baris_btn_Click" prefHeight="187.0" prefWidth="151.0" />
+                        <ImageView fitHeight="151.0" fitWidth="151.0" layoutX="62.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/bariscicegi2.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="72.0" layoutY="190.0" prefHeight="20.0" prefWidth="108.0" text="BARIŞ ÇİÇEĞİ">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+          </Tab>
+          <Tab text="İÇ MEKAN BİTKİLERİ">
+               <content>
+                  <AnchorPane fx:id="ilkgrs1" prefHeight="500.0" prefWidth="454.0" style="-fx-background-color: #dcb8d0;">
+                     <children>
+                        <Button fx:id="bon_btn" layoutX="31.0" layoutY="27.0" mnemonicParsing="false" onAction="#bon_btn_Click" prefHeight="186.0" prefWidth="150.0" />
+                        <Button fx:id="para_btn" layoutX="31.0" layoutY="263.0" mnemonicParsing="false" onAction="#para_btn_Click" prefHeight="186.0" prefWidth="150.0" />
+                        <Button fx:id="deve_btn" layoutX="273.0" layoutY="27.0" mnemonicParsing="false" onAction="#deve_btn_Click" prefHeight="186.0" prefWidth="150.0" textAlignment="CENTER" />
+                        <Label alignment="CENTER" layoutX="291.0" layoutY="188.0" text="DEVETABANI" textFill="#900c3f">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="36.0" layoutY="423.0" text="PARA BİTKİSİ" textFill="#900c3f">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="302.0" layoutY="413.0" text="TORF&amp;GÜBRE" textFill="#900c3f">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="arneca_btn" alignment="CENTER" contentDisplay="CENTER" layoutX="273.0" layoutY="263.0" mnemonicParsing="false" onAction="#arneca_btn_Click" prefHeight="186.0" prefWidth="150.0" />
+                        <ImageView fitHeight="150.0" fitWidth="168.0" layoutX="31.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/icmkn4.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="273.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/icmkn11.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="33.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/icmkn3.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="120.0" layoutX="295.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/icmkn22.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="46.0" layoutY="189.0" text="BONZAİ BİTKİSİ">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="282.0" layoutY="423.0" text="ARNECA PALMİYESİ">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+          </Tab>
+            <Tab text="DIŞ MEKAN BİTKİLER">
+               <content>
+                  <AnchorPane fx:id="ilkgrs2" prefHeight="500.0" prefWidth="454.0" style="-fx-background-color: #dcb8d0;">
+                     <children>
+                        <Button fx:id="begonvil_btn" layoutX="31.0" layoutY="27.0" mnemonicParsing="false" onAction="#begonvil_btn_Click" prefHeight="186.0" prefWidth="150.0" />
+                        <Button fx:id="akuba_btn" layoutX="31.0" layoutY="263.0" mnemonicParsing="false" onAction="#akuba_btn_Click" prefHeight="186.0" prefWidth="150.0" />
+                        <Button fx:id="berberis_btn" layoutX="273.0" layoutY="27.0" mnemonicParsing="false" onAction="#berberis_btn_Click" prefHeight="186.0" prefWidth="150.0" textAlignment="CENTER" />
+                        <Label alignment="CENTER" layoutX="291.0" layoutY="188.0" text="BERBERİS" textFill="#900c3f">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="36.0" layoutY="423.0" text="AKUBA" textFill="#900c3f">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="302.0" layoutY="413.0" text="TORF&amp;GÜBRE" textFill="#900c3f">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="kar_btn" alignment="CENTER" contentDisplay="CENTER" layoutX="273.0" layoutY="263.0" mnemonicParsing="false" onAction="#kar_btn_Click" prefHeight="186.0" prefWidth="150.0" />
+                        <ImageView fitHeight="150.0" fitWidth="168.0" layoutX="31.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/dismekan.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="273.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/berberis.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="135.0" layoutX="48.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/akuba.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="120.0" layoutX="295.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/kartopu2.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="46.0" layoutY="189.0" text="BEGONVİL">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="293.0" layoutY="413.0" text="KARTOPU">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="TORF&amp;GÜBRE">
+               <content>
+                  <AnchorPane fx:id="ilkgrs3" prefHeight="500.0" prefWidth="454.0" style="-fx-background-color: #dcb8d0;">
+                     <children>
+                        <Button fx:id="kaktus_btnn" layoutX="31.0" layoutY="27.0" mnemonicParsing="false" onAction="#kaktusbtnn_Click" prefHeight="186.0" prefWidth="150.0" />
+                        <Button fx:id="saksi_btn" layoutX="31.0" layoutY="263.0" mnemonicParsing="false" onAction="#saksi_btn_Click" prefHeight="186.0" prefWidth="150.0" />
+                        <Button fx:id="orkide_btn" layoutX="273.0" layoutY="27.0" mnemonicParsing="false" onAction="#orkide_btn_Click" prefHeight="186.0" prefWidth="150.0" textAlignment="CENTER" />
+                        <Label alignment="CENTER" layoutX="279.0" layoutY="188.0" text="ORKİDE BİTKİ BESİNİ" textFill="#900c3f">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="77.0" layoutY="423.0" text="SAKSI" textFill="#900c3f">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="302.0" layoutY="413.0" text="TORF&amp;GÜBRE" textFill="#900c3f">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="gbre_btn" alignment="CENTER" contentDisplay="CENTER" layoutX="273.0" layoutY="263.0" mnemonicParsing="false" onAction="#gbre_btn_Click" prefHeight="186.0" prefWidth="150.0" />
+                        <ImageView fitHeight="150.0" fitWidth="168.0" layoutX="31.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/kaktüsdikimseti2.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="273.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/orkidebitkihbesini.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="33.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/SAK2SI.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="120.0" layoutX="295.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/gubre2.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="46.0" layoutY="189.0" text="KAKTÜS DİKİM SETİ">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="kaktus_btn" layoutX="325.0" layoutY="423.0" text="GÜBRE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button fx:id="kapat_btn" layoutX="672.0" layoutY="19.0" mnemonicParsing="false" onAction="#kapat_btn_Click" style="-fx-background-color: #82CAFF;" text="KAPAT">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="cikis_btn" layoutX="572.0" layoutY="19.0" mnemonicParsing="false" onAction="#cikis_btn_click" style="-fx-background-color: #82CAFF;" text="ÇIKIŞ YAP">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

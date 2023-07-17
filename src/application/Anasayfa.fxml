@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anasyfa" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #F5FFFA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AnasayfaController">
+   <children>
+      <Button fx:id="kulgrs" layoutX="132.0" layoutY="132.0" mnemonicParsing="false" onAction="#kulgrs_Click" text="KULLANICI GİRİŞİ" />
+      <Button fx:id="pgrs" layoutX="132.0" layoutY="187.0" mnemonicParsing="false" onAction="#pgrs_Click" text="PERSONEL GİRİŞİ" />
+      <Button fx:id="mgrs" layoutX="132.0" layoutY="239.0" mnemonicParsing="false" onAction="#mgrs_Click" prefHeight="30.0" prefWidth="119.0" text="MÜDÜR GİRİŞİ" />
+      <Button fx:id="kapatbtn" layoutX="284.0" layoutY="14.0" mnemonicParsing="false" onAction="#kapatbtn_Click" prefHeight="30.0" prefWidth="102.0" text="KAPAT" />
+   </children>
+</AnchorPane>

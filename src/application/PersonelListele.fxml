@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PersonelListeleController">
+   <children>
+      <TableView fx:id="plist" onMouseClicked="#plist_click" prefHeight="400.0" prefWidth="700.0">
+        <columns>
+          <TableColumn fx:id="padicol" prefWidth="110.0" text="pADI" />
+          <TableColumn fx:id="psoyadcol" prefWidth="100.0" text="pSOYADI" />
+            <TableColumn fx:id="ptelcol" prefWidth="90.0" text="pTELEFON" />
+            <TableColumn fx:id="pmailcol" prefWidth="110.0" text="pMAİL" />
+            <TableColumn fx:id="pkulcol" prefWidth="123.0" text="pKULLANICI ADI" />
+            <TableColumn fx:id="psifrecol" prefWidth="123.0" text="pŞİFRE" />
+            <TableColumn fx:id="pıdcol" prefWidth="46.0" text="pID" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

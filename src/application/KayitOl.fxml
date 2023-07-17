@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="kytol" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #F5FFFA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.KayitOlController">
+   <children>
+      <TextField fx:id="adtxt1" alignment="TOP_CENTER" layoutX="92.0" layoutY="150.0" onAction="#adtxt_Action" prefHeight="25.0" prefWidth="216.0" promptText="AD" />
+      <TextField fx:id="soyadtxt1" alignment="TOP_CENTER" layoutX="92.0" layoutY="194.0" onAction="#soyadtxt_Action" prefHeight="25.0" prefWidth="216.0" promptText="SOYAD" />
+      <TextField fx:id="teltxt1" alignment="TOP_CENTER" layoutX="92.0" layoutY="238.0" onAction="#teltxt_Action" prefWidth="216.0" promptText="TELEFON NO" />
+      <TextField fx:id="kuladtxt1" alignment="TOP_CENTER" layoutX="92.0" layoutY="326.0" onAction="#kuladtxt_Action" prefWidth="216.0" promptText="KULLANICI ADI" />
+      <TextField fx:id="sifretxt1" alignment="TOP_CENTER" layoutX="92.0" layoutY="370.0" onAction="#sifretxt_Action" prefWidth="216.0" promptText="ŞİFRE" />
+      <Button fx:id="kytbtn1" layoutX="92.0" layoutY="414.0" mnemonicParsing="false" onAction="#kytbtn_Click" prefHeight="35.0" prefWidth="216.0" text="KAYIT OL">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="122.0" layoutY="96.0" prefHeight="17.0" prefWidth="157.0" text="ÜYE KAYIT" textAlignment="CENTER">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="kmail" alignment="CENTER" layoutX="92.0" layoutY="282.0" onAction="#kmail_Click" prefHeight="25.0" prefWidth="216.0" promptText="MAİL" />
+      <Button fx:id="kapatt" alignment="BASELINE_RIGHT" layoutX="359.0" layoutY="6.0" mnemonicParsing="false" onAction="#kapatt_Click" prefHeight="35.0" prefWidth="35.0" />
+      <ImageView fitHeight="35.0" fitWidth="47.0" layoutX="359.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../view/icons8-exit-48.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" alignment="BASELINE_RIGHT" layoutX="324.0" layoutY="6.0" mnemonicParsing="false" onAction="#back_Click" prefHeight="35.0" prefWidth="35.0" />
+      <ImageView fitHeight="35.0" fitWidth="47.0" layoutX="324.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../view/icons8-back.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

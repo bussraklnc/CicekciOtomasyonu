@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panasyfa" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #F5FFFA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PersonelGirisController">
+   <children>
+      <TextField fx:id="pkuladi" alignment="CENTER" layoutX="111.0" layoutY="141.0" prefHeight="25.0" prefWidth="179.0" promptText="KULLANICI ADI" />
+      <Button fx:id="pgrsyp" layoutX="153.0" layoutY="235.0" mnemonicParsing="false" onAction="#pgrsyp_Click" prefHeight="25.0" prefWidth="95.0" text="GİRİŞ YAP" />
+      <PasswordField fx:id="psfre" alignment="CENTER" layoutX="111.0" layoutY="187.0" prefHeight="25.0" prefWidth="179.0" promptText="ŞİFRE" />
+      <Label alignment="CENTER" layoutX="121.0" layoutY="80.0" prefHeight="27.0" prefWidth="159.0" text="PERSONEL GİRİŞİ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="kpat" layoutX="334.0" layoutY="4.0" mnemonicParsing="false" onAction="#kpat_Click" text="KAPAT" />
+      <Button fx:id="backbtn3" layoutX="280.0" layoutY="4.0" mnemonicParsing="false" onAction="#backbtn3_Click" text="BACK" />
+   </children>
+</AnchorPane>
